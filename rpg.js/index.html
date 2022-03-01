@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+</head>
+<body>
+
+    <div id="top">
+        <div id="player-info">
+            <h2 id="player-name"></h2>
+            <p id="player-hp"></p>
+            <p id="player-gold"></p>
+        </div>
+        <p id="time"></p>
+    
+    </div>
+    
+    <div id="main">
+        <div id="explore-section">
+        <button id="explore">Partir en expédition</button>
+        <p id="explore-text"></p>
+        <button id="attack" disabled>Attaquer</button>
+        <button id="items" disabled>Objets</button>
+        <div id="item-list-container">
+            <ul id="item-list">
+
+            </ul>
+        </div>
+        </div>
+    </div>
+
+
+    <div id="bottom">
+
+        <div id="gear-info">
+            <h2>Équipement</h2>
+            <p id="weapon-name"></p>
+            <p id="weapon-description"></p>
+        </div>
+
+        <div id="quest-info">
+            <h3 id="quest-title"></h3>
+            <p id="quest-description"></p>
+            <p id="quest-reward"></p>
+        </div>
+</div>
+
+    <div id="background-time"></div>
+
+    <script src="script/weapons.js"></script>
+    <script src="script/quests.js"></script>
+    <script src="script/player.js"></script>
+    <script src="script/defaults.js"></script>
+    <script src="script/daytime.js"></script>
+    <script src="script/routines.js"></script>
+    <script src="script/main.js"></script>
+</body>
+</html>
