@@ -1,0 +1,34 @@
+{
+    "monsters": [
+        {
+            "name": "Loup",
+            "baseDamage": 5,
+            "health": 5,
+            "location": "plaine"
+        },
+        {
+            "name": "Ronces enchanteresses",
+            "baseDamage": 5,
+            "health": 5,
+            "location": "plaine"
+        },
+        {
+            "name": "Agrippeur",
+            "baseDamage": 5,
+            "health": 5,
+            "location": "plaine"
+        },
+        {
+            "name": "Golem des grottes",
+            "baseDamage": 10,
+            "health": 8,
+            "location": "grotte"
+        },
+        {
+            "name": "Golem des grottes rembourré",
+            "baseDamage": 3,
+            "health": 20,
+            "location": "grotte"
+        }
+    ]
+}

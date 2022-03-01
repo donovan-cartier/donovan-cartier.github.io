@@ -1,0 +1,59 @@
+p, h1, h2, h3, #item-list>li{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#top, #bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    margin: 0
+    /* animation: colors 720s infinite linear;
+    background-color: #8ad8c9; */
+}
+
+#bottom{
+    margin-top: auto;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+#explore-section{
+    text-align: center;
+}
+
+/* @keyframes colors {
+    0%   {background-color: #8ad8c9;}
+    30%  {background-color: #f2d872;}
+    40%  {background-color: #f28e4b;}
+    50%  {background-color: #2d176d;}
+    70%  {background-color: #021447;}
+    85%  {background-color: #065d85;}
+    100% {background-color: #8ad8c9;}
+  } */
+
+#background-time{
+    background:linear-gradient(#149abe 0%, #1386a6 100%);
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+#attack:disabled, #items:disabled{
+    display: none;
+}
+
+#item-list{
+    display: none;
+}
