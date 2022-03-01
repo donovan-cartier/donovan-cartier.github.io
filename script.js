@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import * as THREE from 'https://cdn.skypack.dev/three'
 
 const scene = new THREE.Scene();
@@ -148,4 +147,3 @@ tl.fromTo("#photoContainer", .5, {autoAlpha: 0, x: -100}, {autoAlpha: 1, x:0});
 tl.fromTo("#infos>h1", .5, {autoAlpha: 0}, {autoAlpha: 1});
 tl.fromTo("#infos>h2", .5, {autoAlpha: 0}, {autoAlpha: 1}, "-=.3");
 tl.fromTo("#infos>p", .5, {autoAlpha: 0}, {autoAlpha: 1}, "-=.2");
->>>>>>> 49cace8426ec57d7db18d3e4538b7a18a54803f0
